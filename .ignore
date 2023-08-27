@@ -1,0 +1,22 @@
+# Ignore virtual environment directories
+/myenv/
+venv
+/venv/
+
+
+# Ignore database files
+db.sqlite3
+
+# Ignore static files collected during production
+/static/
+
+# Ignore media files uploaded by users
+/media/
+
+# Ignore temporary and backup files
+*.pyc
+__pycache__/
+
+# Ignore environment-specific settings
+/settings/local_settings.py
+.idea
